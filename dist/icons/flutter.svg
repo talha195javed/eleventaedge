@@ -1,0 +1,13 @@
+<svg id="technologies_ic17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.073" height="122.88" viewBox="0 0 99.073 122.88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-6.612" y1="7.039" x2="-6.596" y2="7.033" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.8"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_150365" data-name="Path 150365" d="M61.193,0,0,61.193l18.94,18.94L99.073,0Z" fill="#47c5fb"/>
+  <path id="Path_150366" data-name="Path 150366" d="M104.914,145.4,72.15,178.164l19.01,19.293,18.9-18.9L143.221,145.4Z" transform="translate(-44.148 -88.969)" fill="#47c5fb"/>
+  <path id="Path_150367" data-name="Path 150367" d="M121.13,249.725l14.391,14.391h37.67l-33.156-33.3Z" transform="translate(-74.118 -141.236)" fill="#00569e"/>
+  <path id="Path_150368" data-name="Path 150368" d="M71.6,200.5l18.94-18.94,19.188,19.118-18.9,18.9Z" transform="translate(-43.811 -111.095)" fill="#00b5f8"/>
+  <path id="Path_150369" data-name="Path 150369" d="M121.13,252.246l15.742-5.224,1.564-12.082Z" transform="translate(-74.118 -143.757)" fill="url(#linear-gradient)"/>
+</svg>
