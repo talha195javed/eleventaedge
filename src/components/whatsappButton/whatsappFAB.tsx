@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppFAB: React.FC = () => {
     const handleWhatsAppClick = () => {
-        window.open("https://wa.me/971505523995", "_blank");
+        window.open("https://wa.me/971561325543", "_blank");
     };
 
     return (

@@ -11,7 +11,7 @@ const ContactSection = () => {
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const phoneNumber = '+971 50 440 6565';
+    const phoneNumber = '+971 56 132 5543';
 
     const handleCopy = () => {
         navigator.clipboard.writeText(phoneNumber).then(() => {
