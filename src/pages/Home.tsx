@@ -22,11 +22,6 @@ const Home: React.FC = () => {
                 <ServiceCardsSection />
             </section>
 
-            {/* YouTube Video Section */}
-            <section>
-                <VideoSection />
-            </section>
-
             {/* Our Expertise Section */}
             <section className="py-10">
                 <ExpertiesSection />

@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import useImageCarousel from "../../hooks/useImageCarousel";
 
 const images = [
-    "/images/expert-areas/frontend.webp",
-    "/images/expert-areas/backend.webp",
-    "/images/expert-areas/ai.webp",
-    "/images/expert-areas/database.webp"
+    "/images/expert-areas/va.webp",
+    "/images/expert-areas/lg.jpg",
+    "/images/expert-areas/as.jpg",
+    "/images/expert-areas/smm.png"
 ];
 
 const ExpertiesSection: React.FC = () => {
@@ -51,15 +51,16 @@ const ExpertiesSection: React.FC = () => {
                 >
                     <div className="p-8 text-center bg-gray-900 rounded-lg bg-opacity-80">
                         <p className="max-w-2xl px-4 mb-8 text-lg">
-                            We pride ourselves on mastering a diverse range of technologies that empower businesses to grow. Our team is equipped with advanced skills to provide innovative solutions, always adapting to the latest trends.
+                            At EleventaEdge, we combine proven strategies with modern tools to deliver reliable support, smarter marketing, and measurable business growth.
                         </p>
 
                         <div className="max-w-2xl px-4 space-y-6">
                             {[
-                                { title: "Frontend (UI/UX & Responsiveness)", desc: "We create visually stunning and highly responsive user interfaces." },
-                                { title: "Backend (Functionality & Security)", desc: "We ensure robust functionality and top-notch security for your applications." },
-                                { title: "AI / Automation Features", desc: "We integrate cutting-edge AI and automation to streamline your processes." },
-                                { title: "Database Optimization", desc: "We optimize databases for performance, scalability, and reliability." }
+                                { title: "Virtual Assistance", desc: "Streamlining administrative tasks, inbox management, and daily operations." },
+                                { title: "Lead Generation", desc: "Advanced strategies to identify, qualify, and deliver high-quality leads." },
+                                { title: "Appointment Setting", desc: "Hassle-free scheduling and calendar management to connect you with potential clients." },
+                                { title: "Paid Ads Management", desc: "Running optimized campaigns on Google Ads, Facebook, Instagram, and LinkedIn." },
+                                { title: "Social Media Management", desc: "Crafting engaging content and growing brand visibility across multiple platforms." }
                             ].map((item, index) => (
                                 <motion.div
                                     key={index}

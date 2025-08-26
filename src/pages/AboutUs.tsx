@@ -29,23 +29,34 @@ const AboutUs: React.FC = () => {
                     >
                         About Us
                     </motion.h1>
+
                     <motion.p
                         className="mb-6 text-xl text-gray-300"
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 0.2 }}
                     >
-                        Welcome to <Link to="/">{COMPANY_NAME}</Link> – Innovating the Future of Tech, SaaS, and AI Solutions. At <Link to="/">{COMPANY_NAME}</Link>, we are driven by a mission to empower businesses with cutting-edge technology solutions.  We build platforms for smart business communication and integrations, combining innovative approaches to create scalable, secure, and AI-powered digital experiences that transform how companies operate and engage with their customers.
+                        Welcome to <Link to="/">{COMPANY_NAME}</Link> – your trusted partner in
+                        business growth. At <Link to="/">{COMPANY_NAME}</Link>, we empower startups
+                        and enterprises with reliable support, smarter marketing, and innovative
+                        digital strategies. From daily operations to lead generation and paid ads,
+                        we help businesses focus on growth while we handle the rest.
                     </motion.p>
+
                     <motion.p
                         className="text-xl text-gray-300"
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 0.4 }}
                     >
-                        We specialize in crafting customized digital strategies that boost business efficiency and growth through advanced tech solutions. Our flexible, cloud-based software (SaaS) offerings streamline operations and enhance productivity, while our AI integration services leverage automation and intelligent decision-making to optimize customer interaction and business processes.
+                        Our expertise spans Virtual Assistance, Social Media Management, Lead
+                        Generation, Appointment Setting, and Ads Management. By combining proven
+                        strategies with modern tools, we deliver excellence, consistency, and
+                        measurable impact — helping brands build stronger connections and achieve
+                        sustainable success in today’s fast-changing market.
                     </motion.p>
                 </section>
+
 
                 {/* Mission and Team Sections - Grid Layout */}
                 <section className="grid grid-cols-1 gap-12 px-6 pb-20 text-center md:grid-cols-2">
@@ -76,12 +87,52 @@ const AboutUs: React.FC = () => {
                     >
                         We Specialize In
                     </motion.h2>
+
                     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {/* Expertise Items */}
                         {[
-                            { icon: "⚙️", title: "Tech Solutions", content: "Crafting customized digital strategies that boost business efficiency and growth.", delay: 0.2 },
-                            { icon: "☁️", title: "SaaS", content: "Offering flexible, cloud-based software solutions that streamline operations and improve productivity.", delay: 0.4 },
-                            { icon: "🤖", title: "AI Integration", content: "Leveraging the power of Artificial Intelligence to enhance automation, decision-making, and customer interaction.", delay: 0.6 },
+                            {
+                                icon: "👩‍💻",
+                                title: "Virtual Assistance",
+                                content:
+                                    "Providing reliable support for daily administrative tasks so businesses can focus on growth.",
+                                delay: 0.2,
+                            },
+                            {
+                                icon: "🎯",
+                                title: "Lead Generation",
+                                content:
+                                    "Identifying and delivering high-quality leads to boost your sales pipeline.",
+                                delay: 0.4,
+                            },
+                            {
+                                icon: "📢",
+                                title: "Social Media Management",
+                                content:
+                                    "Building brand presence and engaging audiences across platforms to grow visibility and influence.",
+                                delay: 0.6,
+                            },
+                            {
+                                icon: "📅",
+                                title: "Appointment Setting",
+                                content:
+                                    "Scheduling meetings efficiently with potential clients to maximize your time and opportunities.",
+                                delay: 0.8,
+                            },
+                            {
+                                icon: "💹",
+                                title: "Google Ads Management",
+                                content:
+                                    "Running targeted ad campaigns that drive traffic, leads, and measurable conversions.",
+                                delay: 1.0,
+                            },
+                            {
+                                icon: "📲",
+                                title: "Social Media Ads",
+                                content:
+                                    "Creating and managing ad campaigns on Facebook, Instagram, and other platforms to amplify reach.",
+                                delay: 1.2,
+                            },
                         ].map(({ icon: Icon, title, content, delay }) => (
                             <motion.div
                                 key={title}
@@ -92,13 +143,12 @@ const AboutUs: React.FC = () => {
                             >
                                 <div className="mb-4 text-5xl">{Icon}</div>
                                 <h3 className="mb-2 text-xl font-semibold">{title}</h3>
-                                <p className="text-gray-300">
-                                    {content}
-                                </p>
+                                <p className="text-gray-300">{content}</p>
                             </motion.div>
                         ))}
                     </div>
                 </section>
+
 
                 {/* Team Members Section */}
                 {/* <section className="px-6 pb-20">
@@ -110,25 +160,26 @@ const AboutUs: React.FC = () => {
                     <motion.h2
                         className="mb-6 text-3xl font-semibold"
                         initial={{ opacity: 0, y: 40 }}
-                        whileInView={{ opacity: 1, y: 0 }} // Trigger animation when the element enters the viewport
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
-                        viewport={{ once: true }} // Animation happens once when the element enters the view
+                        viewport={{ once: true }}
                     >
-                        <Link to="/">{COMPANY_NAME}</Link> – Innovating the Future
+                        <Link to="/">{COMPANY_NAME}</Link> – Empowering Business Growth
                     </motion.h2>
+
                     <motion.p
                         className="max-w-3xl mx-auto text-lg text-gray-300"
                         initial={{ opacity: 0, y: 40 }}
-                        whileInView={{ opacity: 1, y: 0 }} // Trigger animation when the element enters the viewport
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 0.3 }}
-                        viewport={{ once: true }} // Animation happens once when the element enters the view
+                        viewport={{ once: true }}
                     >
-                        Our team is dedicated to helping businesses thrive through
-                        innovative solutions in technology, SaaS, and AI. We believe in
-                        continuously evolving and staying ahead of the curve to ensure our
-                        clients achieve success and sustainable growth.
+                        Our team at <Link to="/">{COMPANY_NAME}</Link> is dedicated to helping businesses thrive through
+                        reliable support, smart marketing strategies, and digital solutions that drive results.
+                        We focus on delivering consistent, measurable impact — from Virtual Assistance and Lead Generation to Social Media Management and Paid Ads — ensuring sustainable growth and stronger customer connections.
                     </motion.p>
                 </section>
+
             </div>
         </div>
     );

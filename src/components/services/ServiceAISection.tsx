@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 
-const ServiceAISection = () => {
+const ServiceBusinessGrowthSection = () => {
     return (
         <div className="text-white">
-
             {/* Content Section */}
             <div className="relative z-10">
                 <section className="relative px-6">
@@ -16,7 +15,7 @@ const ServiceAISection = () => {
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
                         >
-                            🤖
+                            💼
                         </motion.div>
                         <motion.h2
                             className="mt-4 text-4xl font-bold"
@@ -25,7 +24,7 @@ const ServiceAISection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            AI & ML
+                            Business Growth Solutions
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +33,9 @@ const ServiceAISection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            Transform your business with cutting-edge AI solutions. We help automate operations, enhance decision-making, and unlock new growth opportunities with Artificial Intelligence.
+                            EleventaEdge helps businesses grow through Virtual Assistance, Lead Generation,
+                            Social Media Management, and Ads Management. We provide reliable support and
+                            innovative strategies that drive measurable results and sustainable success.
                         </motion.p>
                     </div>
 
@@ -47,34 +48,34 @@ const ServiceAISection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Why Choose Us for AI & ML?
+                            Why Choose Us?
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Tailored AI Strategies",
+                                    title: "Tailored Business Solutions",
                                     description:
-                                        "We design AI solutions that are tailored to your business needs. Whether you're looking to automate processes, analyze data, or enhance customer experiences, our team creates strategies that align with your goals and deliver measurable results.",
+                                        "We design strategies and services that align with your unique business needs to maximize growth and efficiency.",
                                 },
                                 {
-                                    title: "Data-Driven Decision Making",
+                                    title: "Lead Generation & Sales Growth",
                                     description:
-                                        "Our AI solutions empower your business to make smarter decisions by leveraging data. We build models that analyze large datasets, identify trends, and provide actionable insights, helping you stay ahead of the competition.",
+                                        "Our team identifies and delivers high-quality leads to expand your sales pipeline and boost revenue.",
                                 },
                                 {
-                                    title: "Automation & Productivity",
+                                    title: "Social Media & Ads Expertise",
                                     description:
-                                        "Automate repetitive tasks and streamline workflows with our AI-powered solutions. From customer service chatbots to automated data processing, we help you save time, reduce costs, and improve productivity.",
+                                        "From managing campaigns to running targeted ads, we ensure your brand reaches the right audience and achieves measurable results.",
                                 },
                                 {
-                                    title: "Seamless AI Integration",
+                                    title: "Reliable Support & Operations",
                                     description:
-                                        "We ensure that AI solutions are seamlessly integrated into your existing systems. Our team works closely with you to minimize disruption and maximize the value of AI in your operations.",
+                                        "We handle your administrative tasks, appointment scheduling, and business operations so you can focus on core priorities.",
                                 },
                                 {
-                                    title: "Ethical AI Development",
+                                    title: "Measurable Impact",
                                     description:
-                                        "We prioritize ethical AI practices, ensuring that our solutions are transparent, fair, and unbiased. Our commitment to ethical AI helps build trust and ensures long-term success for your business.",
+                                        "Every service we provide is designed to deliver tangible results, helping you track growth and optimize strategies.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -92,7 +93,7 @@ const ServiceAISection = () => {
                         </div>
                     </div>
 
-                    {/* AI Solutions */}
+                    {/* Our Solutions */}
                     <div className="max-w-5xl mx-auto mt-12">
                         <motion.h3
                             className="text-3xl font-bold text-center"
@@ -101,39 +102,39 @@ const ServiceAISection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Our AI Solutions Include:
+                            Our Services Include:
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Machine Learning & Predictive Analytics",
+                                    title: "Virtual Assistance",
                                     description:
-                                        "We build and deploy custom machine learning models that enable your business to predict future trends, automate processes, and enhance decision-making. From sales forecasting to customer behavior analysis, our solutions help you stay ahead of the curve.",
+                                        "Handling daily administrative tasks, inbox management, and scheduling to streamline your business operations.",
                                 },
                                 {
-                                    title: "Natural Language Processing (NLP)",
+                                    title: "Lead Generation",
                                     description:
-                                        "Implement NLP techniques to process and analyze human language data. Our NLP solutions power smarter chatbots, sentiment analysis, and content generation, enabling you to engage with customers more effectively.",
+                                        "Finding and qualifying leads to boost your sales pipeline and grow your business.",
                                 },
                                 {
-                                    title: "Computer Vision & Image Recognition",
+                                    title: "Social Media Management",
                                     description:
-                                        "We develop AI-powered computer vision systems for image recognition, object detection, and video analysis. These solutions help businesses automate visual tasks, improve accuracy, and reduce manual effort.",
+                                        "Creating and managing content to grow brand presence and engage your audience effectively.",
                                 },
                                 {
-                                    title: "AI-Powered Business Intelligence & Analytics",
+                                    title: "Appointment Setting",
                                     description:
-                                        "Unlock valuable insights from your data with AI-driven analytics tools. Our solutions improve business intelligence, optimize operations, and help you make data-driven decisions with confidence.",
+                                        "Scheduling meetings with potential clients in a hassle-free and efficient manner.",
                                 },
                                 {
-                                    title: "AI Chatbots & Virtual Assistants",
+                                    title: "Google Ads Management",
                                     description:
-                                        "Build AI-powered chatbots and virtual assistants to handle customer inquiries, improve engagement, and enhance user experience. Our solutions are designed to deliver seamless, human-like interactions.",
+                                        "Running targeted ad campaigns that drive traffic, leads, and conversions.",
                                 },
                                 {
-                                    title: "AI for Workflow Automation",
+                                    title: "Social Media Ads",
                                     description:
-                                        "Automate complex workflows with AI-powered solutions. From document processing to inventory management, our AI tools reduce manual intervention, increase productivity, and improve accuracy.",
+                                        "Creating and optimizing ad campaigns across platforms like Facebook, Instagram, and LinkedIn to maximize reach.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -156,4 +157,4 @@ const ServiceAISection = () => {
     );
 };
 
-export default ServiceAISection;
+export default ServiceBusinessGrowthSection;

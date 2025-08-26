@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 
-const ServiceMobileSection = () => {
+const ServiceMarketingSection = () => {
     return (
         <div className="text-white">
-
             {/* Content Section */}
             <div className="relative z-10">
                 <section className="relative px-6">
@@ -25,7 +24,7 @@ const ServiceMobileSection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Mobile App Services
+                            Digital Marketing & Lead Services
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +33,7 @@ const ServiceMobileSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            We deliver high-performance mobile applications with integrated AI features. Whether you're looking for native or cross-platform solutions, we tailor mobile apps to fit your unique business needs.
+                            EleventaEdge helps businesses grow through targeted marketing, lead generation, and social media management. We create strategies that boost visibility, attract quality leads, and maximize ROI.
                         </motion.p>
                     </div>
 
@@ -47,34 +46,34 @@ const ServiceMobileSection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Why Choose Us for Mobile Apps?
+                            Why Choose Us for Marketing & Leads?
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Custom Mobile Solutions",
+                                    title: "Targeted Lead Generation",
                                     description:
-                                        "We build mobile apps tailored to your business needs. Whether it's a native app or a cross-platform solution, we ensure your app delivers a seamless user experience while integrating AI capabilities.",
+                                        "We identify and deliver high-quality leads tailored to your business to expand your sales pipeline.",
                                 },
                                 {
-                                    title: "AI-Enhanced User Experience",
+                                    title: "Social Media Growth",
                                     description:
-                                        "Our mobile apps leverage AI features such as intelligent chatbots, personalized recommendations, and predictive analytics to enhance user engagement and boost business performance.",
+                                        "We manage your social media accounts, creating engaging content and campaigns that grow your audience and brand presence.",
                                 },
                                 {
-                                    title: "Cross-Platform or Native Apps",
+                                    title: "Ads Management Expertise",
                                     description:
-                                        "We offer both native and cross-platform app development based on your project requirements. Our team uses the latest tools to ensure that your app runs smoothly on iOS and Android devices.",
+                                        "We create and optimize campaigns across Google, Facebook, and Instagram to drive traffic, conversions, and ROI.",
                                 },
                                 {
-                                    title: "Scalable & Secure",
+                                    title: "Strategic Campaign Planning",
                                     description:
-                                        "Our mobile apps are designed with scalability in mind, enabling your business to grow without compromising security. We implement robust security measures to safeguard user data and ensure compliance.",
+                                        "Our team develops marketing strategies aligned with your goals, ensuring measurable impact and sustainable growth.",
                                 },
                                 {
-                                    title: "End-to-End Support",
+                                    title: "Performance Tracking & Analytics",
                                     description:
-                                        "From app design to development and deployment, we provide end-to-end support. We also offer maintenance and updates to ensure that your app stays up to date with evolving user needs and technological advancements.",
+                                        "We monitor all campaigns and provide insights on performance, allowing continuous optimization for better results.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -92,7 +91,7 @@ const ServiceMobileSection = () => {
                         </div>
                     </div>
 
-                    {/* Our Mobile App Solutions */}
+                    {/* Our Services */}
                     <div className="max-w-5xl mx-auto mt-12">
                         <motion.h3
                             className="text-3xl font-bold text-center"
@@ -101,39 +100,34 @@ const ServiceMobileSection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Our Mobile App Solutions Include:
+                            Our Services Include:
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Native iOS & Android Apps",
+                                    title: "Lead Generation",
                                     description:
-                                        "We specialize in creating high-performance native applications that offer a seamless and responsive experience on both iOS and Android platforms.",
+                                        "Finding and qualifying leads to boost your sales pipeline and grow your business.",
                                 },
                                 {
-                                    title: "Cross-Platform Mobile Apps",
+                                    title: "Social Media Management",
                                     description:
-                                        "With frameworks like React Native and Flutter, we deliver cross-platform solutions that allow you to reach a wider audience while keeping development costs low.",
+                                        "Creating and managing content to grow brand presence and engage your audience effectively.",
                                 },
                                 {
-                                    title: "AI-Powered Features",
+                                    title: "Google Ads Management",
                                     description:
-                                        "Our mobile apps integrate AI-powered features like chatbots, personalized content, facial recognition, and more, helping your app stand out in the competitive mobile market.",
+                                        "Running targeted ad campaigns to drive traffic, leads, and measurable conversions.",
                                 },
                                 {
-                                    title: "Mobile App Optimization",
+                                    title: "Social Media Ads",
                                     description:
-                                        "We focus on app optimization, ensuring that your app is fast, responsive, and user-friendly, with minimal load times and a smooth user experience.",
+                                        "Optimizing paid campaigns on social media platforms to maximize reach and engagement.",
                                 },
                                 {
-                                    title: "App Monetization Strategies",
+                                    title: "Appointment Setting",
                                     description:
-                                        "We help you develop effective app monetization strategies, whether it's through in-app purchases, subscriptions, ads, or a combination of these methods.",
-                                },
-                                {
-                                    title: "App Analytics & Insights",
-                                    description:
-                                        "We integrate advanced analytics tools to provide you with valuable insights into your users' behavior, helping you make data-driven decisions to improve your app's performance.",
+                                        "Scheduling meetings efficiently with potential clients to save time and increase opportunities.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -156,4 +150,4 @@ const ServiceMobileSection = () => {
     );
 };
 
-export default ServiceMobileSection;
+export default ServiceMarketingSection;

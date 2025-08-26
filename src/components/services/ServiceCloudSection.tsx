@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 
-const ServiceCloudSection = () => {
+const ServiceSupportSection = () => {
     return (
         <div className="text-white">
-
             {/* Content Section */}
             <div className="relative z-10">
                 <section className="relative px-6">
@@ -25,7 +24,7 @@ const ServiceCloudSection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Cloud Solutions
+                            Business Support & Operations
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +33,7 @@ const ServiceCloudSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            Unlock the power of cloud computing to streamline your business operations, enhance scalability, and reduce costs. Our cloud solutions provide secure, reliable, and efficient services tailored to your needs.
+                            EleventaEdge provides reliable business support solutions that streamline operations, optimize workflow, and enhance productivity. Our services are designed to help you focus on growth while we handle the administrative and operational tasks.
                         </motion.p>
                     </div>
 
@@ -47,34 +46,34 @@ const ServiceCloudSection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Why Choose Us for Cloud Solutions?
+                            Why Choose Us for Business Support?
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Custom Cloud Infrastructure",
+                                    title: "Virtual Assistance",
                                     description:
-                                        "We design and implement cloud infrastructure that meets the unique needs of your business. Whether public, private, or hybrid, we ensure scalability, security, and high availability.",
+                                        "We manage your daily administrative tasks, inbox, and scheduling to let you focus on your core business priorities.",
                                 },
                                 {
-                                    title: "Cloud Migration Expertise",
+                                    title: "Appointment & Calendar Management",
                                     description:
-                                        "Our experts help you smoothly transition to the cloud, ensuring minimal downtime, data security, and a seamless migration process that doesn’t disrupt your business operations.",
+                                        "Efficiently scheduling meetings and coordinating with clients, reducing missed opportunities and optimizing your time.",
                                 },
                                 {
-                                    title: "Cost Optimization",
+                                    title: "Operational Efficiency",
                                     description:
-                                        "We focus on cost-effective cloud strategies, optimizing your cloud environment to reduce unnecessary expenses and enhance resource utilization, ensuring you get the best value for your investment.",
+                                        "Streamlining workflows and business processes to enhance productivity and minimize overhead.",
                                 },
                                 {
-                                    title: "Disaster Recovery & Backup",
+                                    title: "Lead & Client Management",
                                     description:
-                                        "Our cloud solutions include robust disaster recovery and backup strategies, ensuring your data is secure, backed up, and easily recoverable in the event of a crisis.",
+                                        "Tracking and managing leads, client communications, and follow-ups to maximize conversions and business growth.",
                                 },
                                 {
-                                    title: "Cloud Security & Compliance",
+                                    title: "Reliable Support",
                                     description:
-                                        "We ensure your cloud infrastructure is secure and compliant with industry standards and regulations, protecting your business data and providing peace of mind.",
+                                        "A dedicated team ensuring your business operations run smoothly with minimal disruptions, providing peace of mind.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -97,4 +96,4 @@ const ServiceCloudSection = () => {
     );
 };
 
-export default ServiceCloudSection;
+export default ServiceSupportSection;

@@ -51,13 +51,13 @@ const IntroductionSection: React.FC = () => {
             >
                 <div>
                     <h1 className="text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-7xl">
-                        The Future
+                        Virtual Assistants
                     </h1>
                     <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-5xl">
-                        of Your Business is Here
+                        for Everything
                     </h2>
                     <h3 className="text-lg text-white sm:text-xl md:text-xl lg:text-2xl mt-[36px] max-w-[600px] mx-auto">
-                        <Link to="/">{COMPANY_NAME}</Link> offers cost-effective, customized technology and software solutions in all over the world, empowering businesses with scalable, secure, and AI-powered digital experiences.
+                        From startups to growing enterprises, our clients trust us to deliver excellence, consistency, and measurable impact.
                     </h3>
                 </div>
 

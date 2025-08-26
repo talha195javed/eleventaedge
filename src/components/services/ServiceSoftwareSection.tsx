@@ -25,7 +25,7 @@ const ServiceSoftwareSection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Software Development
+                            Business Software Solutions
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +34,7 @@ const ServiceSoftwareSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            We specialize in building customized software solutions that solve complex problems, enhance business efficiency, and enable seamless workflows across various industries.
+                            At EleventaEdge, we craft custom software solutions designed to streamline workflows, enhance productivity, and automate key business processes. From virtual assistance platforms to lead generation tools, our software enables smarter, faster, and more efficient operations.
                         </motion.p>
                     </div>
 
@@ -52,29 +52,29 @@ const ServiceSoftwareSection = () => {
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Tailored Software Solutions",
+                                    title: "Custom Business Software",
                                     description:
-                                        "We design software solutions tailored to your specific business needs, ensuring that every aspect of the software enhances your operations and drives growth.",
+                                        "We build software tailored to your business needs, enabling automation, improved workflow, and better client engagement.",
                                 },
                                 {
-                                    title: "Agile Development Process",
+                                    title: "Integration with Existing Systems",
                                     description:
-                                        "Our agile development methodology ensures continuous delivery, rapid iteration, and quick adjustments to meet your evolving needs, keeping your project on track and within budget.",
+                                        "Our solutions integrate seamlessly with your current tools, platforms, and communication channels to enhance operational efficiency.",
                                 },
                                 {
-                                    title: "Cross-Platform Development",
+                                    title: "Scalable & Flexible",
                                     description:
-                                        "We develop software that seamlessly integrates across platforms. Whether it's Windows, macOS, or Linux, our solutions work perfectly across your entire tech stack.",
+                                        "Our software is designed to grow with your business, handling increasing users, data, and processes without performance loss.",
                                 },
                                 {
-                                    title: "Scalable Architecture",
+                                    title: "Productivity & Automation",
                                     description:
-                                        "Our software is designed with scalability in mind, enabling your business to grow without worrying about performance issues or having to replace the system as your needs evolve.",
+                                        "Automate repetitive tasks, streamline operations, and enable your team to focus on strategic growth rather than manual work.",
                                 },
                                 {
-                                    title: "Post-Launch Support",
+                                    title: "Ongoing Support & Maintenance",
                                     description:
-                                        "We offer comprehensive post-launch support, ensuring your software is optimized, updated, and monitored regularly to ensure smooth operation in the long term.",
+                                        "We provide continuous support, updates, and optimization to ensure your software stays efficient, secure, and up-to-date.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div

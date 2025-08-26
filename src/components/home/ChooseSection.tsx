@@ -15,7 +15,7 @@ const ChooseSection: React.FC = () => {
                     Why Choose Us?
                 </h1>
                 <p className="mb-8 text-lg text-gray-300">
-                    We are committed to providing high-quality solutions with the following core values:
+                    ✨ At EleventaEdge, we don’t just provide services — we become an extension of your team, ensuring consistency, growth, and measurable impact. Here’s why businesses trust us:
                 </p>
                 <div className="space-y-6">
                     <motion.div
@@ -26,9 +26,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Experienced Professionals</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Proven Expertise</h3>
                             <p className="text-gray-300">
-                                Our team consists of experts committed to delivering excellence in every project.
+                                From startups to enterprises, we’ve helped businesses streamline operations and accelerate growth.
                             </p>
                         </div>
                     </motion.div>
@@ -41,9 +41,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Innovative Solutions</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Result-Driven Approach</h3>
                             <p className="text-gray-300">
-                                We leverage the latest technologies to develop innovative solutions for your business.
+                                Every strategy we design is focused on delivering measurable outcomes that boost your bottom line.
                             </p>
                         </div>
                     </motion.div>
@@ -56,9 +56,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.6 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Customer-Centric Approach</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Tailored Solutions</h3>
                             <p className="text-gray-300">
-                                We prioritize understanding your business needs and delivering solutions aligned with your goals.
+                                We customize our services to match your unique business goals and industry requirements.
                             </p>
                         </div>
                     </motion.div>
@@ -71,9 +71,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.8 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Proven Track Record</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Scalable Support</h3>
                             <p className="text-gray-300">
-                                With successful projects across various industries, we have a proven track record in all over the world.
+                                Whether you’re growing or already established, our services scale with your business needs.
                             </p>
                         </div>
                     </motion.div>

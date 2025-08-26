@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
 
                     {/* Logo Section */}
                     <div className="flex items-center justify-center flex-1 lg:justify-start">
-                        <img src={"icons/company-name-logo.png"} alt="icon" className="h-24 mr-2" />
+                        <img src={"icons/elevent.png"} alt="icon" className="h-24 mr-2" />
                     </div>
 
                     {/* Desktop Navigation */}
@@ -83,7 +83,6 @@ const Navbar: React.FC = () => {
                         <div className="flex items-center space-x-2 md:space-x-4">
                             {[
                                 { path: '/', label: 'Home' },
-                                { path: '/insights', label: 'Insights' },
                                 { path: '/about', label: 'About' },
                                 { path: '/services', label: 'Services' },
                                 { path: '/contact', label: 'Contact' }
@@ -96,23 +95,6 @@ const Navbar: React.FC = () => {
                                     {label}
                                 </Link>
                             ))}
-
-                            {/* Industries with Click Toggle (Desktop) */}
-                            <div className="relative" ref={industriesRef}>
-                                <button
-                                    onClick={() => setIndustriesOpen(prev => !prev)}
-                                    className={`relative px-2 py-2 text-sm font-semibold transition-all transform md:px-3 md:text-base hover:scale-105 button-border ${location.pathname === '/industries' ? 'active-tab' : 'text-gray-300'}`}
-                                >
-                                    Industries
-                                </button>
-                                <AnimatePresence>
-                                    {isIndustriesOpen && (
-                                        <div>
-                                            <IndustriesMenu onClose={handleCloseIndustries} />
-                                        </div>
-                                    )}
-                                </AnimatePresence>
-                            </div>
 
                             {/* Translate to Arabic Button (Desktop) */}
                             <motion.button
@@ -142,7 +124,6 @@ const Navbar: React.FC = () => {
                     <div className="px-2 pt-2 pb-3 space-y-1">
                         {[
                             { path: '/', label: 'Home' },
-                            { path: '/insights', label: 'Insights' },
                             { path: '/about', label: 'About' },
                             { path: '/services', label: 'Services' },
                             { path: '/contact', label: 'Contact' }

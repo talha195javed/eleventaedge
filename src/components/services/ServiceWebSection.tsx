@@ -25,7 +25,7 @@ const ServiceWebSection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Web Development
+                            Web & Digital Solutions
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +34,7 @@ const ServiceWebSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            Elevate your online presence with our top-tier web development solutions. From stunning front-end designs to scalable back-end systems, we create seamless, user-friendly experiences.
+                            At EleventaEdge, we craft responsive, secure, and user-friendly web solutions tailored to elevate your online presence. From SaaS platforms to digital marketing tools, we design web experiences that streamline operations, engage audiences, and drive measurable growth.
                         </motion.p>
                     </div>
 
@@ -52,29 +52,29 @@ const ServiceWebSection = () => {
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Custom Web Designs",
+                                    title: "Custom & Responsive Websites",
                                     description:
-                                        "Our web design team creates unique, responsive, and aesthetically pleasing websites tailored to your brand identity and user needs, ensuring a memorable experience for your audience.",
+                                        "We create visually appealing and responsive websites that perfectly reflect your brand identity and provide an engaging user experience.",
                                 },
                                 {
-                                    title: "Scalable Web Architecture",
+                                    title: "Scalable Web Platforms",
                                     description:
-                                        "We build scalable web applications that grow with your business. Whether it's increasing user traffic or adding new features, our solutions are designed to adapt and evolve over time.",
+                                        "Our web solutions are built to grow with your business. From high traffic handling to feature expansion, our platforms adapt seamlessly.",
                                 },
                                 {
-                                    title: "Full-Stack Expertise",
+                                    title: "Full-Stack Development Expertise",
                                     description:
-                                        "From front-end to back-end, we specialize in both areas. Whether it's Angular, React, or Vue.js for the frontend or Node.js, Express, or Laravel for the backend, we ensure your web applications are fast and reliable.",
+                                        "We handle everything from front-end design to back-end architecture. Our team ensures fast, reliable, and efficient web applications using modern technologies.",
                                 },
                                 {
-                                    title: "SEO Optimization",
+                                    title: "SEO & Performance Optimization",
                                     description:
-                                        "Our web development services include built-in SEO strategies, helping your website rank higher on search engines. We implement on-page SEO techniques to drive organic traffic and boost visibility.",
+                                        "Our websites are optimized for search engines and performance, ensuring higher visibility, faster load times, and better engagement.",
                                 },
                                 {
-                                    title: "Web Security Best Practices",
+                                    title: "Security & Compliance",
                                     description:
-                                        "We ensure that your website is secure from cyber threats with the latest security protocols. From data encryption to secure transactions, we prioritize the safety of your users' information.",
+                                        "We implement strong security measures and follow industry best practices to protect user data, transactions, and digital assets.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div

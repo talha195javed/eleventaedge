@@ -10,13 +10,14 @@ interface Service {
 
 // Service Data
 const services: Service[] = [
-    { id: "ai", title: "AI & ML", description: "Cutting-edge AI technologies to drive business growth.", icon: "🤖" },
-    { id: "mobile", title: "Mobile App", description: "Create engaging and user-friendly apps for your business.", icon: "📱" },
-    { id: "web", title: "Web Development", description: "We build modern, scalable, and responsive websites tailored to your business needs.", icon: "🌐" },
-    { id: "software", title: "Custom Software", description: "Tailored solutions to meet your business requirements.", icon: "🖥️" },
-    { id: "cloud", title: "Cloud Integration", description: "Scalable and secure cloud solutions for seamless operations.", icon: "☁️" },
-    { id: "security", title: "Cybersecurity Services", description: "Protect your business with top-notch security frameworks.", icon: "🛡️" },
+    { id: "ai", title: "Virtual Assistance", description: "Reliable support for your daily admin tasks so you can focus on growth.", icon: "👩‍💻" },
+    { id: "mobile", title: "Lead Generation", description: "Identifying and delivering quality leads to boost your sales pipeline.", icon: "🎯" },
+    { id: "web", title: "Social Media Management", description: "Building your brand presence and engaging your audience across platforms.", icon: "📢" },
+    { id: "software", title: "Appointment Setting", description: "Scheduling meetings with your potential clients — hassle-free and efficient.", icon: "📅" },
+    { id: "cloud", title: "Google Ads Management", description: "Running targeted Google ad campaigns that drive traffic and conversions.", icon: "💹" },
+    { id: "security", title: "Social Media Ads", description: "Creating and managing ad campaigns on Facebook, Instagram, and more.", icon: "📲" },
 ];
+
 
 const ServiceCardsSection: React.FC = () => {
     return (

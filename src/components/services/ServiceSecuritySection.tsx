@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 
-const ServiceSecuritySection = () => {
+const ServiceSupportSecuritySection = () => {
     return (
         <div className="text-white">
-
             {/* Content Section */}
             <div className="relative z-10">
                 <section className="relative px-6">
@@ -25,7 +24,7 @@ const ServiceSecuritySection = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Cybersecurity Solutions
+                            Data & Business Security
                         </motion.h2>
                         <motion.p
                             className="mt-4 text-lg text-gray-300"
@@ -34,7 +33,7 @@ const ServiceSecuritySection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            Safeguard your business with our comprehensive cybersecurity solutions. We provide end-to-end protection, from threat detection to incident response, ensuring your digital assets are secure.
+                            At EleventaEdge, protecting your business and client data is our priority. We ensure that all operations, communications, and client information are handled securely, maintaining trust and reliability for your business.
                         </motion.p>
                     </div>
 
@@ -47,34 +46,34 @@ const ServiceSecuritySection = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            Why Choose Us for Cybersecurity?
+                            Why Choose Us for Business Security?
                         </motion.h3>
                         <div className="mt-6 space-y-6">
                             {[
                                 {
-                                    title: "Threat Detection & Prevention",
+                                    title: "Confidential Data Handling",
                                     description:
-                                        "Our solutions provide proactive monitoring and threat detection, ensuring that potential cyber threats are identified and neutralized before they can cause harm to your systems.",
+                                        "We manage client and business data securely, ensuring privacy and trust in every task we handle.",
                                 },
                                 {
-                                    title: "Data Encryption",
+                                    title: "Secure Communications",
                                     description:
-                                        "We implement strong encryption protocols to protect your sensitive data, both in transit and at rest, ensuring that your data remains secure and inaccessible to unauthorized entities.",
+                                        "All business communications, emails, and scheduling are managed with strict confidentiality.",
                                 },
                                 {
-                                    title: "Incident Response & Recovery",
+                                    title: "Reliable Operational Security",
                                     description:
-                                        "In case of a breach, we offer rapid incident response to mitigate damage and provide a robust recovery plan, ensuring that your systems are restored quickly and securely.",
+                                        "Our processes are designed to minimize errors and risks, keeping your operations safe and efficient.",
                                 },
                                 {
-                                    title: "Compliance & Auditing",
+                                    title: "Compliance & Best Practices",
                                     description:
-                                        "We ensure your business complies with industry regulations and standards, including GDPR, HIPAA, and PCI DSS, through regular audits and assessments to maintain a secure environment.",
+                                        "We follow industry-standard practices to ensure security and reliability in all our services.",
                                 },
                                 {
-                                    title: "Security Awareness Training",
+                                    title: "Team Training & Awareness",
                                     description:
-                                        "We offer tailored training programs to educate your team on best cybersecurity practices, empowering them to identify and prevent potential security threats themselves.",
+                                        "Our team is trained to handle sensitive information responsibly, ensuring client trust and operational integrity.",
                                 },
                             ].map(({ title, description }, index) => (
                                 <motion.div
@@ -97,4 +96,4 @@ const ServiceSecuritySection = () => {
     );
 };
 
-export default ServiceSecuritySection;
+export default ServiceSupportSecuritySection;

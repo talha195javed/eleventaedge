@@ -70,11 +70,8 @@ const OurServices = () => {
             <div className="relative z-10">
                 <div className="pt-32" id="ai"><ServiceAISection /></div>
                 <div className="pt-32" id="mobile"><ServiceMobileSection /></div>
-                <div className="pt-32" id="web"><ServiceWebSection /></div>
-                <div className="pt-32" id="software"><ServiceSoftwareSection /></div>
                 <div className="pt-32" id="cloud"><ServiceCloudSection /></div>
                 <div className="pt-32" id="security"><ServiceSecuritySection /></div>
-                <div className="pt-32"><TechnologiesSection /></div>
             </div>
         </div>
     );
