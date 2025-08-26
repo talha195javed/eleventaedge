@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import useImageCarousel from '../../hooks/useImageCarousel';
-import { Link } from 'react-router-dom';
-import { COMPANY_NAME } from '../../utils/constants/company-details';
+//import { Link } from 'react-router-dom';
+//import { COMPANY_NAME } from '../../utils/constants/company-details';
 
 const images = [
     "/images/intro-1.jpg",
